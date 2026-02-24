@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           doggo
-Version:        1.1.4
+Version:        1.1.5
 Release:        1%{?dist}
 Summary:        Command-line DNS Client for Humans. Written in Golang
 Group:          Applications/System
@@ -28,5 +28,8 @@ install -Dm0755 %{_builddir}/%{name}-%{version}/bin/%{name}.bin %{buildroot}%{_b
 %{_bindir}/%{name}
 
 %changelog
+* Wed Feb 5 2026 Jamie Curnow <jc@jc21.com> 1.1.5-1
+- https://github.com/mr-karan/doggo/releases/tag/v1.1.5
+
 * Fri Feb 6 2026 Jamie Curnow <jc@jc21.com> 1.1.4-1
 - https://github.com/mr-karan/doggo/releases/tag/v1.1.4
